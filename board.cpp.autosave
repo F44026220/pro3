@@ -1,0 +1,77 @@
+#include "board.h"
+#include <iostream>
+
+Board::Board(int ch)
+{
+    WhichCh=ch;
+    CHpos=100;
+
+    switch (ch) {
+    case 1:
+        ch1=new Character1();
+        break;
+    case 2:
+        ch2=new Character2();
+        break;
+    case 3:
+        ch3=new Character3();
+        break;
+    case 4:
+        ch4=new Character4();
+        break;
+    case 5:
+        ch5=new Character5();
+        break;
+    case 6:
+        ch6=new Character6();
+        break;
+    case 7:
+        ch7=new Character7();
+        break;
+    case 8:
+        ch8=new Character8();
+        break;
+    }
+}
+
+Board::~Board()
+{
+    switch (WhichCh) {
+    case 1:
+        delete ch1;
+        break;
+    case 2:
+        delete ch2;
+        break;
+    case 3:
+        delete ch3;
+        break;
+    case 4:
+        delete ch4;
+        break;
+    case 5:
+        delete ch5;
+        break;
+    case 6:
+        delete ch6;
+        break;
+    case 7:
+        delete ch7;
+        break;
+    case 8:
+        delete ch8;
+        break;
+    }
+    std::cout<<"dtor board"<<std::endl;
+}
+
+
+bool Board::ifSeeEnemy(const QVector<Board*>* & En_location, int LEN)
+{
+
+    int SeeRange=1, AttackRange;
+
+    while (SeeRange<=AttackRange && )
+}
+
+

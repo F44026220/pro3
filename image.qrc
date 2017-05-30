@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/start.jpg</file>
+        <file>img/source.jpg</file>
+        <file>img/Pause.jpg</file>
+        <file>img/open.jpg</file>
+        <file>img/icon.png</file>
+        <file>img/cub.jpg</file>
+        <file>img/conti_1.jpg</file>
+        <file>img/character.png</file>
+        <file>img/character.jpg</file>
+        <file>img/btn_start.jpg</file>
+        <file>img/btn_change_ball.jpg</file>
+        <file>img/ball.png</file>
+        <file>img/back.jpg</file>
+        <file>img/bee.gif</file>
+        <file>img/penguin.gif</file>
+        <file>img/play_cas.gif</file>
+        <file>img/ai_cas.gif</file>
+        <file>img/prairie.jpg</file>
+        <file>img/ai_cas_act.gif</file>
+    </qresource>
+</RCC>
